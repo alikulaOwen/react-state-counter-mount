@@ -10,7 +10,7 @@ class Counter extends React.Component {
     this.setState({counter: this.state.counter+1});
   }
   componentDidMount() {
-    this.setState({counter: 42});
+    this.setState({counter: 0});
   }
   render() {
     return <div>
